@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cat', 'dog']
+
+roboflow:
+  workspace: jinyoung-n3i3g
+  project: my-first-project-cv7ma
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jinyoung-n3i3g/my-first-project-cv7ma/dataset/8
